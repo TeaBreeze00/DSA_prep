@@ -22,3 +22,5 @@ class Solution:
             seen.add(num)     # otherwise I add the value in my seen set if it's a unique value
         
         return False          # My hashset has all unique values so I return false
+
+Time Complexity: O(n), space: O(n)
